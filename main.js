@@ -50,10 +50,10 @@ app.on('activate', function () {
   }
 });
 
-// menubar
+menubar
 const mb = menubar({
-  'width': 500,
-  'height': 700,
+  'width': 640,
+  'height': 1120,
   'preload-window': true,
   'resizable': false
 });
@@ -63,6 +63,6 @@ mb.on('ready', function ready () {
 });
 
 // ipc communication
-ipcMain.on('quit', () => {
-  app.quit();
-});
+// ipcMain.on('quit', () => {
+//   app.quit();
+// });

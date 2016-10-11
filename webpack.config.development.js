@@ -17,6 +17,10 @@ var config = {
     }, {
       test: /\.png|\.svg$/,
       loaders: ['file-loader']
+    },
+    {
+      test: /\.json$/,
+      loader: 'json-loader'
     }]
   },
   output: {
